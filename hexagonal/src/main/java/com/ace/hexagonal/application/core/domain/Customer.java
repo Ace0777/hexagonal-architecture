@@ -8,14 +8,14 @@ public class Customer {
 
     public Customer(String id, String nome, Address address, String cpf, Boolean isValidCpf) {
         this.id = id;
-        this.nome = nome;
+        this.name = nome;
         this.address = address;
         this.cpf = cpf;
         this.isValidCpf = isValidCpf;
     }
 
     private String id;
-    private String nome;
+    private String name;
 
     private Address address;
 
@@ -32,11 +32,11 @@ public class Customer {
     }
 
     public String getNome() {
-        return nome;
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String name) {
+        this.name = name;
     }
 
     public Address getAddress() {
